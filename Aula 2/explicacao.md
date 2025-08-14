@@ -61,3 +61,4 @@ CISC (Complex Instruction Set Computer)
 + Mais instruções (instruções mais complexas)
 - Execução geralmente mais lenta
 ```
+## Identificando as Intruções para medir complexidade.
