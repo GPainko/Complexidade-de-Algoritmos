@@ -1,0 +1,71 @@
+# Compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / pacotes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ferramentas de teste / cobertura
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Logs e arquivos temporários
+*.log
+*.pot
+*.mo
+*.swp
+*~
+.DS_Store
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de banco de dados temporários
+db.sqlite3
+*.db
+
+# Arquivos específicos do sistema
+Thumbs.db

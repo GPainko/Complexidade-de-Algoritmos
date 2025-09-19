@@ -1,3 +1,5 @@
+import time
+
 def bubblesort(lista):
     n = len(lista)
     # Passa por toda a lista
@@ -12,4 +14,11 @@ def bubblesort(lista):
 # Exemplo de uso
 valores = [10, 5, 8, 1, 7, 3, 4, 2, 9, 0, 11, 12]
 print("Lista original:", valores)
-print("Lista ordenada:", bubblesort(valores))
+
+inicio = time.time()  # Inicia o cronômetro
+lista_ordenada = bubblesort(valores)
+fim = time.time()  # Para o cronômetro
+
+print("Lista ordenada:", lista_ordenada)
+print(f"Tempo de execução: {fim - inicio:.6f} segundos")
+
